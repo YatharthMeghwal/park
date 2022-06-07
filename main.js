@@ -77,7 +77,7 @@ function up()
 function down()
 {
 	if(greencar_y <= 440){
-		greencar_y = greencar_x + 10;
+		greencar_y = greencar_y + 10;
 		uploadBackground();
 		uploadgreencar();
 	}
@@ -86,7 +86,7 @@ function down()
 function left()
 {
 	if(greencar_x >= 0){
-		greencar_x = greencar_y - 10;
+		greencar_x = greencar_x - 10;
 		uploadBackground();
 		uploadgreencar();
 	}
